@@ -1,0 +1,22 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.107.238.92:3306/special_freight_vehicle_db?useUnicode=true&useSSL=false&characterEncoding=utf8
+    username: luyao
+    password: 147708
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+server:
+  port: 8080
+file:
+  download:
+    vdpm: /Users/user/Desktop/vdpm_config
+    bsmu1beering: /Users/user/Desktop/vdpm_config
+    bsmu1basic: /Users/user/Desktop/vdpm_config
+    bsmu2beering: /Users/user/Desktop/vdpm_config
+    bsmu2basic: /Users/user/Desktop/vdpm_config
+    url1: /Users/user/Desktop/vdpm_config1
+
+remote:
+  port: 22221
